@@ -3,3 +3,4 @@ out.asm
 *.o
 *.pyc
 *.bin
+bin/*
