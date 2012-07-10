@@ -1,0 +1,6 @@
+yacc -d parser.y
+lex -t lexer.lex > lexer.c
+#gcc -W -Wall -ansi -pedantic -c node.c -o node.o
+#gcc -W -Wall -ansi -pedantic node.o lexer.c y.tab.c -lfl
+gcc -c node.c -o node.o
+gcc node.o lexer.c y.tab.c -lfl -o cyparse

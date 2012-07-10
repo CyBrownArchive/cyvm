@@ -1,0 +1,55 @@
+#LEXER
+  Différencier int/long et float/double
+  Chaines de caractères
+  Convertir les hexa, binaires, octal
+
+
+
+#PARSER
+	Mieux parser les déclarations
+	Parser les définitions de fonction
+	Parser les classes
+	Parser les slices dans [ ]
+
+
+
+
+
+
+#COMPILER
+	Optimiser && et ||
+
+
+
+
+
+
+
+
+#ASSEMBLER
+
+
+
+
+
+
+
+
+#GENERAL
+  Notion de typage...
+  Type fonction
+  Classes
+ 	Slices à la python
+ 	Opérateur foreach
+
+
+#CLASSES
+	ATTRIBUTS
+		static
+		getter et setter
+	METHODES
+		static
+	Surcharge d'opérateur
+	héritage (simple ?)
+	interface
+	Classes annonymes ? (difficile...)

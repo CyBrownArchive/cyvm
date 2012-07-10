@@ -1,0 +1,3 @@
+#! /bin/sh
+cat $1 | bin/cyparse > out.json
+bin/cyc out.json out.asm && python cyc/cyasm.py out.asm $2

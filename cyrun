@@ -1,0 +1,2 @@
+#! /bin/sh
+./cycc $1 out.bin && bin/cyvm out.bin

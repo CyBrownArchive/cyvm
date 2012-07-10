@@ -1,0 +1,2 @@
+#! /bin/sh
+python cyc/cyc.py

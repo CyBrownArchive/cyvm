@@ -1,0 +1,10 @@
+#! /bin/sh
+
+cd cyparse
+./build
+mv cyparse ../bin
+cd ..
+cd cyvm
+gcc -g cyvm.c -o cyvm
+mv cyvm ../bin
+cd ..
