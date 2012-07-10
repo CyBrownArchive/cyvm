@@ -1,0 +1,20 @@
+Author: Cy Brown <cy@cybrown.fr>
+
+cyvm is a stack based virtual machine, using a C like language.
+It aims to bring static and strong types.
+
+Folders:
+bin: binary files
+cyc: The compiler, using a json files representing the AST of the program
+cyparse: The parser, it outputs a json file. Created using flex and bison
+cyvm: the virtual machine
+doc: some documentation
+exo: files for testing the language
+
+Building:
+Use the build file to compile every thing.
+
+Usage:
+run cycc (input file) (output file) to compile a program
+run cyvm (file) to run a file
+
